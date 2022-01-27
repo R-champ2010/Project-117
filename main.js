@@ -9,3 +9,4 @@ timer_check="";
 drawn_sketch="";
 answer_holder="";
 score="";
+

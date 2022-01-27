@@ -16,6 +16,13 @@
 
 
 body{
-    background: rgb(34,193,195);
-    background: linear-gradient(246deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background: hsla(95, 76%, 65%, 1);
+
+    background: linear-gradient(90deg, hsla(95, 76%, 65%, 1) 30%, hsla(61, 81%, 60%, 1) 69%);
+
+    background: -moz-linear-gradient(90deg, hsla(95, 76%, 65%, 1) 30%, hsla(61, 81%, 60%, 1) 69%);
+
+    background: -webkit-linear-gradient(90deg, hsla(95, 76%, 65%, 1) 30%, hsla(61, 81%, 60%, 1) 69%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9BEA62", endColorstr="#E9EC45", GradientType=1 );
 }
